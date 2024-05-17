@@ -1,20 +1,23 @@
 body {
-    background-color: #f4f4f4; /* Light gray background */
+    background-color: #054ada; /* IBM Blue background */
+    color: #ffffff; /* White text */
 }
 .navbar {
-    background-color: #054ada; /* IBM Blue */
+    background-color: #ffffff ; /* IBM Dark Blue */
 }
-.navbar-brand, .nav-link {
-    color: #ffffff !important; /* White text */
-}
+
 .navbar-toggler {
     border-color: #ffffff; /* White border */
+}
+.navbar-toggler-icon {
+    filter: invert(1); /* Invert colors to make the icon white */
 }
 .carousel-inner .carousel-item img {
     border-radius: 8px; /* Rounded corners for images */
 }
 .carousel-caption h5 {
-    background-color: rgba(0, 45, 156, 0.8); /* IBM Dark Blue with transparency */
+    background-color: rgba(255, 255, 255, 0.8); /* White with transparency */
+    color: #002d9c; /* IBM Dark Blue text */
     padding: 10px;
     border-radius: 5px;
 }
@@ -24,18 +27,24 @@ body {
     border-radius: 5px;
 }
 .btn-primary {
-    background-color: #3b73ff;
-    border-color: #3b73ff;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #054ada; /* IBM Blue text */
+}
+.btn-primary:hover {
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+    color: #054ada;
 }
 .list-group-item {
-    background-color: #ffffff;
-    border-color: #054ada;
-    color: #054ada;
+    background-color: #054ada;
+    border-color: #ffffff;
+    color: #ffffff;
 }
 .list-group-item:hover {
     background-color: #3b73ff;
     color: #ffffff;
 }
 h1, h2 {
-    color: #054ada; /* IBM Blue */
+    color: #ffffff; /* White text */
 }

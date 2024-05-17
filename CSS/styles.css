@@ -1,0 +1,41 @@
+body {
+    background-color: #f4f4f4; /* Light gray background */
+}
+.navbar {
+    background-color: #054ada; /* IBM Blue */
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important; /* White text */
+}
+.navbar-toggler {
+    border-color: #ffffff; /* White border */
+}
+.carousel-inner .carousel-item img {
+    border-radius: 8px; /* Rounded corners for images */
+}
+.carousel-caption h5 {
+    background-color: rgba(0, 45, 156, 0.8); /* IBM Dark Blue with transparency */
+    padding: 10px;
+    border-radius: 5px;
+}
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.5); /* Black with transparency */
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-primary {
+    background-color: #3b73ff;
+    border-color: #3b73ff;
+}
+.list-group-item {
+    background-color: #ffffff;
+    border-color: #054ada;
+    color: #054ada;
+}
+.list-group-item:hover {
+    background-color: #3b73ff;
+    color: #ffffff;
+}
+h1, h2 {
+    color: #054ada; /* IBM Blue */
+}
